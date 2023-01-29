@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 2000px;
+    height: 1000px;
+    overflow: hidden;
+    display: flexbox;
+    position: relative;
+}
+.a { width:480px;
+    height:320px;
+}
+.nz {
+    background-color:rgba(0,0,0,0.6);
+    height:100%;
+    color:#fff;
+    text-align:center;
+    line-height:320px;
+    opacity:0;
+    transition: opacity .3s;
+}
+.nz:hover .nz {
+    opacity:1;
+  }
+/* .box {
+    width:480px;
+    height:320px;
+    background-image:url(http://placeimg.com/480/320/any);
+  }
+  .text {
+    background-color:rgba(0,0,0,0.6);
+    height:100%;
+    color:#fff;
+    text-align:center;
+    line-height:320px;
+    opacity:0;
+    transition: opacity .3s;
+  }
+  .box:hover .text {
+    opacity:1;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nz:hover .p {
+    opacity:1;
+  }
